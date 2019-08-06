@@ -6,8 +6,9 @@
 ## Prerequisites:
 1. `python 2.7`
 2. `cuda 9.0`
-3. `sudo apt-get install ffmpeg`
-4. `pip install -r requirments.txt`
+3. `cuDNN v7.6.2`
+4. `sudo apt-get install ffmpeg`
+5. `pip install -r requirments.txt`
 
 ## Data
 1. Download the dataset as described [here](data/dataset.md)
