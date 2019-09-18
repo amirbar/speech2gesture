@@ -1,5 +1,5 @@
 # Learning Individual Styles of Conversational Gestures
-#### [Shiry Ginosar](http://people.eecs.berkeley.edu/~shiry)* , [Amir Bar](http://amirbar.github.io)* , Gefen Kohavi, [Caroline Chan](https://www.csail.mit.edu/person/caroline-chan), [Andrew Owens](http://andrewowens.com/), [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/)
+#### [Shiry Ginosar](http://people.eecs.berkeley.edu/~shiry)* , [Amir Bar](http://amirbar.net)* , Gefen Kohavi, [Caroline Chan](https://www.csail.mit.edu/person/caroline-chan), [Andrew Owens](http://andrewowens.com/), [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/)
 ![alt text](data/teaser_gan_oliver_041.png "")
 ##### Back to [main project page](https://people.eecs.berkeley.edu/~shiry/projects/speech2gesture/index.html)
 
