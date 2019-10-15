@@ -4,14 +4,14 @@
 
 
 ## Table of contents:
-1. [Prerequisits for data download] (#Prerequisits-for-data-download)
+1. [Prerequisits for data download](#Prerequisits-for-data-download)
 2. [Download specific speaker data](#Download-specific-speaker-data)
 3. [Crop intervals containing frontal speaker](#Crop-intervals-containing-frontal-speaker)
 4. [Reference](#reference)
 
 ## Prerequisits for data download
-1. [OpenCV] (https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html).
-2. [youtube-dl] (https://ytdl-org.github.io/youtube-dl/index.html).
+1. [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html).
+2. [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html).
 
 ## Download specific speaker data
 ### Frames.csv File
