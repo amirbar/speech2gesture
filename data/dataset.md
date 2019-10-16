@@ -11,8 +11,8 @@
 
 ## Prerequisits for data download
 1. [Project prerequisites](https://github.com/amirbar/speech2gesture#prerequisites)
-2. 'OpenCV'
-3. 'youtube-dl'
+2. `OpenCV`
+3. `youtube-dl`
 
 ## Download specific speaker data
 ### Frames.csv File
