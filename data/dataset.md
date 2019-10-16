@@ -10,8 +10,9 @@
 4. [Reference](#reference)
 
 ## Prerequisits for data download
-1. [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html).
-2. [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html).
+1. [Project prerequisites](https://github.com/amirbar/speech2gesture#prerequisites)
+2. 'OpenCV'
+3. 'youtube-dl'
 
 ## Download specific speaker data
 ### Frames.csv File
