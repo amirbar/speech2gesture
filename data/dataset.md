@@ -58,8 +58,10 @@ Gestures
     ├── keypoints_all
     └── keypoints_simple
 ```
+
+4. Download the file containing all video links video_links.csv from [here](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ).
  
-4. Download the speaker videos from youtube. Use the script attached:
+5. Download the speaker videos from youtube. Use the following script:
 `python -m data.download.download_youtube --base_path </path/to/dataset base folder> --speaker <speaker_name>`
 
 Speaker names include: 
