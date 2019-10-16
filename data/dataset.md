@@ -91,9 +91,8 @@ Gestures
 ## Crop intervals containing frontal speaker
 
 If you just want to use intervals containing frontal view of the speakers for any purpose, follow these instructions
-
-1. Follow "Download specific speaker data" section
-2. Download `intervals_df.csv` and `crop_intervals.csv` from [here](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ) and position it in base path.3
+1. Follow the [Download specific speaker data](#Download-specific-speaker-data) section
+2. Download `intervals_df.csv` and `crop_intervals.csv` from [here](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ) and place it in the base path.
 3. Run: 
 
 ```python crop_intervals --base_path </path/to/base folder> --speaker <optional, speaker_name> --output_path <output path to save intervals>```
