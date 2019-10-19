@@ -8,6 +8,8 @@
 2. [Download specific speaker data](#Download-specific-speaker-data)
 3. [Crop intervals containing frontal speaker](#Crop-intervals-containing-frontal-speaker)
 4. [Reference](#reference)
+5. [Changelog](#changelog)
+
 
 ## Prerequisits for data download
 1. [Project prerequisites](https://github.com/amirbar/speech2gesture#prerequisites)
@@ -117,3 +119,6 @@ If you found this code useful, please cite the following paper:
   month=jun
 }
 ```
+
+### Changelog
+10/19/19 - We've removed 22 duplicated videos in the dataset. We're now working to update the manuscript accordingly.
