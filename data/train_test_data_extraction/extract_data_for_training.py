@@ -81,7 +81,7 @@ def save_video_samples(df):
 
 
 if __name__ == "__main__":
-    df = pd.read_csv(os.path.join(args.base_dataset_path, "frames_df_4_30_19.csv"))
+    df = pd.read_csv(os.path.join(args.base_dataset_path, "frames_df_10_19_19.csv"))
     if args.speaker is not None:
         df = df[df['speaker'] == args.speaker]
     df = df[(df['dataset'] == 'train') | (df['dataset'] == 'dev')]
