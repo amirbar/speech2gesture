@@ -95,7 +95,7 @@ If you just want to use intervals containing frontal view of the speakers for an
 2. Download `intervals_df.csv` and `crop_intervals.py` from [here](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ) and place them in the base path.
 3. Run: 
 
-```python crop_intervals --base_path </path/to/base folder> --speaker <optional, speaker_name> --output_path <output path to save intervals>```
+```python crop_intervals.py --base_path </path/to/base folder> --speaker <optional, speaker_name> --output_path <output path to save intervals>```
 
 ---
 
