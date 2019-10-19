@@ -6,6 +6,7 @@ from subprocess import call
 import cv2
 import numpy as np
 import os
+import shutil
 import pandas as pd
 from tqdm import tqdm
 
@@ -21,7 +22,6 @@ df = pd.read_csv(os.path.join(BASE_PATH, "videos_links.csv"))
 if args.speaker:
     df = df[df['speaker'] == args.speaker]
 
-err = 0
 temp_output_path = '/tmp/temp_video.mp4'
 
 for _, row in tqdm(df.iterrows(), total=df.shape[0]):
@@ -36,14 +36,16 @@ for _, row in tqdm(df.iterrows(), total=df.shape[0]):
             res1 = call(command, shell=True)
             cam = cv2.VideoCapture(temp_output_path)
             if np.isclose(cam.get(cv2.CAP_PROP_FPS), 29.97, atol=0.03):
-                os.rename(temp_output_path, output_path)
+                shutil.move(temp_output_path, output_path)
             else:
                 res2 = call('ffmpeg -i "%s" -r 30000/1001 -strict -2 "%s" -y' % (temp_output_path, output_path),
                             shell=True)
         except Exception as e:
             print e
-            err += 1
         finally:
             if os.path.exists(temp_output_path):
                 os.remove(temp_output_path)
-print("Successfully downloaded: %s/%s" % (len(df) - err, len(df)))
+print("Out of a total of %s videos for %s: "%(len(df), args.speaker))
+print("Successfully downloaded:")
+my_cmd = 'ls ' + os.path.join(BASE_PATH, row["speaker"], "videos") + ' | wc -l'
+os.system(my_cmd)
