@@ -3,7 +3,7 @@
 ##### Back to [main project page](https://people.eecs.berkeley.edu/~shiry/projects/speech2gesture/index.html)
 
 ## Note:
-The data for Conan was updated recently to remove duplicate videos. The numerical results pertaining to Conan will be updated soon.
+The data for Conan was updated recently to remove duplicate videos. The numerical results on arxiv pertaining to Conan will be updated soon.
 
 ## Table of contents:
 1. [Prerequisits for data download](#Prerequisits-for-data-download)
