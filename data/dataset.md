@@ -22,7 +22,7 @@ The data for Conan was updated recently to remove duplicate videos. The numerica
 ### Frames.csv File
 
 1. Create a base dataset folder named (e.g Gestures)
-2. Download the file `frames_df.csv.tgz` from [here](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ). extract in the root path of base folder. This file contains a listing and metadata of all included files. 
+2. Download the file `frames_df_10_19_19.csv` from [here](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ). extract in the root path of base folder. This file contains a listing and metadata of all included files. 
 
 After this step, this should be the contents of your base dataset folder:
 ```
