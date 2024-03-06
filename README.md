@@ -75,7 +75,7 @@ During training, example outputs are saved in the define `output_path`
 
 
 ### Inference
-optionally get a pretrained model [here](https://drive.google.com/file/d/1VUc5BiGU-XxXvCL1ku8hEKwadhhrwfLy). 
+optionally get a pretrained model [here](https://drive.google.com/file/d/1HpG9y7UHQ9VWJZnRxOW4O5_dOOBcBshR/view?usp=drive_link). 
 
 Perform inference on a random sample from validation set:
 ```
